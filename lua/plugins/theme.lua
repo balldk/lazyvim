@@ -2,14 +2,14 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa-dragon",
+      colorscheme = "kanagawa",
     },
   },
   {
     "rebelot/kanagawa.nvim",
     config = function()
       require("kanagawa").setup({
-        transparent = false,
+        transparent = true,
         colors = {
           theme = { all = { ui = { bg_gutter = "none" } } },
         },
